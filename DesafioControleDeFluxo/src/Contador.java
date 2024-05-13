@@ -24,10 +24,11 @@ public class Contador {
 		if(parametroUm > parametroDois){
 			throw new ParametrosInvalidosException();
 		}else 
+		//realizar o for para imprimir os números com base na variável contagem
 		for(int i=0;i<contagem;i++){
 			System.out.println("Imprimindo o numero " + (i+1));
 		}
 		
-		//realizar o for para imprimir os números com base na variável contagem
+		
 	}
 }
